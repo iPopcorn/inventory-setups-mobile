@@ -1,5 +1,5 @@
 {
-	"name": "vitamin",
+	"name": "inventory-setups-mobile",
 	"license": "MIT",
 	"private": true,
 	"version": "0.0.0",
@@ -7,7 +7,6 @@
 		"build": "vite build",
 		"commit": "cz",
 		"dev": "vite --open",
-		"prepare": "husky install",
 		"preview": "vite preview",
 		"preview:test": "start-server-and-test preview http://localhost:4173",
 		"test": "vitest",
@@ -63,7 +62,6 @@
 		"eslint-plugin-react-prefer-function-component": "3.0.0",
 		"eslint-plugin-testing-library": "5.7.2",
 		"eslint-plugin-unicorn": "43.0.2",
-		"husky": "8.0.1",
 		"jsdom": "20.0.1",
 		"lint-staged": "13.0.3",
 		"msw": "0.47.4",
