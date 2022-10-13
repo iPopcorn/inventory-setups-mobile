@@ -11,9 +11,14 @@ export default function Home(): ReactElement {
 	}
 
 	return (
-		<div>
-			<h1>Home Works!</h1>
-			<button onClick={onToggleSetupVisible}>Show Inventory Setup</button>
+		<div className='text-center'>
+			<h1>Welcome to Inventory Setups Mobile!</h1>
+			<button
+				className='mt-2 rounded-lg border-2 border-gray-50 px-2'
+				onClick={onToggleSetupVisible}
+			>
+				Show Inventory Setup
+			</button>
 			{setupVisible ? <InventorySetupDisplay /> : undefined}
 		</div>
 	)
